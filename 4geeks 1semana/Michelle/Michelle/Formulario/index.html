@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/icono.png">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--<style type="text/css">
+        body{
+            background-color: lightblue;
+        }
+
+        h2{
+            color: white;
+            text-align: center;
+        }
+
+        h3{
+            font-family: verdana;
+            font-size: 20px;
+        }
+
+        input{
+            border-radius: 5px;
+        }
+    </style>-->
+</head>
+<body>
+    <table style="text-align: center; width: 100%">
+        <tr>
+            <td><img src="images/formulario.png" width="50px" height="50px"></td>
+            <td><h2 style="text-align: center">Formulario de Registro</h2></td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+
+    <form class="" action="index.html" method="get">
+
+        <label>Nombre Completo:</label>
+        <input type="text" name="nombre" placeholder="Michelle">
+        <br>
+        <br>
+        <label>CI.</label>
+        <input type="text" name="apellido" placeholder="V-12345678" required>
+        <br>
+        <br>
+        <label>Genero:</label>
+        <input type="radio" name="genero" value="Femenino"> Femenino
+        <input type="radio" name="genero" value="Masculino">Masculino
+        <br><br>
+        <label>Correo:</label>
+        <input type="email" name="correo" placeholder="michelle@correo.com" required>
+        <br>
+        <br>
+        <label>Edad:</label>
+        <input type="number" name="edad" placeholder="edad">
+        <br><br>
+        <label>Intereses:</label><br>
+        <input type="checkbox" name="intereses" value="Musica">Musica <br>
+        <input type="checkbox" name="intereses" value="Leer">Leer <br>
+        <input type="checkbox" name="intereses" value="Series">Series <br>
+        <input type="checkbox" name="intereses" value="Peliculas">Peliculas <br>
+        <input type="checkbox" name="intereses" value="Otros">Otros <br>
+        <label>Otros:</label>
+        <input type="textarea" placeholder="Otros Intereses">
+        <br><br>
+
+
+        <br>
+        <br>
+        <br>
+        <button type="submit" name="button">Enviar</button>
+        <button type="reset">Borrar</button> <br>
+        <br>
+        <br>
+
+    </form>
+
+    <a href="../Curriculum/index.html"><img src="images/curriculum.png" width="50px" height="50px" title="Click para ir al Curriculum"></a>
+
+</body>
+</html>
