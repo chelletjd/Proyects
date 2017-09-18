@@ -24,10 +24,17 @@ height: 50px;
 }
 
 .prueba{
-	width: 1300px;
+	width: 1400px;
 	height: 500px !important;
 }
 
+.imagen{
+	padding-bottom: 20px;
+}
+.aboutimg{
+	width: 80%;
+	height: auto;
+}
 a{
 	color: #0A7984 !important;
 }
@@ -36,13 +43,14 @@ color: white !important;
 }
 
 button{
-	background-color: #FECB56;
-	color: #0A7984;
+	background-color: #0A7984;
+	color: #FECB56;
+	padding-bottom: 20px;
 }
 button:hover{
-	border-color: #FECB56;
-	background-color: #0A7984;
-color: white !important;
+	border-color: #0A7984;
+	background-color: #3F969A;
+	color: #FECB56 !important;
 }
 
 .menu:hover{
@@ -78,6 +86,34 @@ cursor: pointer;
 .fondo{
 	background-color: #0A7984;
 	padding-top: 70px;
+}
+.fondo1{
+	background-color: #3F969A;
+	padding-top: 70px;
+	font-size: 1.5em;
+
+}
+span{
+	color: white !important;
+}
+
+.lista{
+	color: white;
+	line-height: 40px;
+}
+
+.borde{
+	background-color: #FECB56;
+	border-radius: 15px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.lista li{
+
+	list-style-type: square;
+	padding-bottom: 10px;
+	font-size: 1.2em;
 }
 
 .footer{
